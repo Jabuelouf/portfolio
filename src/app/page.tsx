@@ -14,16 +14,15 @@ export default function Home() {
         <section className="flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <p className="text-sm font-medium text-muted-foreground">
-              Data Analysis · Dashboards · Storytelling
+              Data Analysis · Dashboarding · Stakeholder Storytelling
             </p>
             <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">
               Hi, I&apos;m {siteConfig.name}.
-              <br />
-              I turn data into decisions.
+              <br />I turn data into decisions.
             </h1>
             <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground">
-              I build clean data pipelines, create clear KPI dashboards, and
-              communicate insights that help teams move faster.
+              I build reliable data pipelines, create executive-ready KPI
+              dashboards, and communicate insights that help teams move faster.
             </p>
           </div>
 
@@ -45,7 +44,7 @@ export default function Home() {
 
         <section className="mt-16 sm:mt-20">
           <div className="rounded-3xl border border-[color:var(--border)] bg-muted p-8">
-            <div className="grid gap-6 sm:grid-cols-3">
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               <div className="flex flex-col gap-1">
                 <p className="text-sm text-muted-foreground">Strengths</p>
                 <p className="font-semibold">SQL · Python · BI</p>
@@ -57,6 +56,10 @@ export default function Home() {
               <div className="flex flex-col gap-1">
                 <p className="text-sm text-muted-foreground">Location</p>
                 <p className="font-semibold">{siteConfig.location}</p>
+              </div>
+              <div className="flex flex-col gap-1">
+                <p className="text-sm text-muted-foreground">Open to</p>
+                <p className="font-semibold">Data Analyst · BI Analyst</p>
               </div>
             </div>
           </div>

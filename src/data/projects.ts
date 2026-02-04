@@ -12,6 +12,34 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "cyclistic-analysis",
+    title: "Cyclistic Ride Share Analysis",
+    description:
+      "End-to-end analysis of bike share usage patterns with clear recommendations for growth.",
+    tags: ["Python", "Pandas", "EDA", "Storytelling"],
+    links: {
+      demo: "https://www.kaggle.com/code/jonathanabuelouf/cyclistic-ride-share-analysis",
+    },
+    highlights: [
+      "Cleaned and joined ride data to uncover rider behavior",
+      "Translated trends into marketing and retention recommendations",
+    ],
+  },
+  {
+    slug: "tableau-visuals",
+    title: "Tableau Public Dashboards",
+    description:
+      "Interactive dashboards focused on operational KPIs, trend analysis, and executive reporting.",
+    tags: ["Tableau", "Data Visualization", "Dashboards"],
+    links: {
+      demo: "https://public.tableau.com/app/profile/jonathan8167/vizzes",
+    },
+    highlights: [
+      "Designed KPI-focused views with filters for quick exploration",
+      "Delivered clear narratives with annotations and benchmarks",
+    ],
+  },
+  {
     slug: "option-advisor",
     title: "Option Advisor",
     description:
@@ -23,17 +51,6 @@ export const projects: Project[] = [
     highlights: [
       "Built reusable data ingestion + cleaning pipeline",
       "Exported models for downstream scoring and reporting",
-    ],
-  },
-  {
-    slug: "dashboard-suite",
-    title: "Dashboard Suite",
-    description:
-      "Interactive dashboards for tracking KPIs across business and product metrics.",
-    tags: ["SQL", "Power BI", "Tableau", "Data Modeling"],
-    highlights: [
-      "Designed star-schema models for fast slicing and filtering",
-      "Delivered exec-ready KPI views and drilldowns",
     ],
   },
   {
