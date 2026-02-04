@@ -16,7 +16,7 @@ export default function ContactPage() {
           subtitle="Reach out for opportunities, collaborations, or a quick chat about analytics."
         />
 
-        <div className="mt-10 grid gap-6 md:grid-cols-3">
+        <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           <Card
             title="Email"
             description="Fastest way to reach me."
@@ -34,6 +34,18 @@ export default function ContactPage() {
             description="Code and projects."
             href={siteConfig.links.github}
             label="github.com"
+          />
+          <Card
+            title="Kaggle"
+            description="Deep-dive notebooks and analyses."
+            href={siteConfig.links.kaggle}
+            label="kaggle.com"
+          />
+          <Card
+            title="Tableau Public"
+            description="Interactive dashboard portfolio."
+            href={siteConfig.links.tableau}
+            label="public.tableau.com"
           />
         </div>
       </Container>

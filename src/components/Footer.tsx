@@ -29,6 +29,22 @@ export function Footer() {
             </Link>
             <Link
               className="text-muted-foreground hover:text-foreground"
+              href={siteConfig.links.kaggle}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Kaggle
+            </Link>
+            <Link
+              className="text-muted-foreground hover:text-foreground"
+              href={siteConfig.links.tableau}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Tableau
+            </Link>
+            <Link
+              className="text-muted-foreground hover:text-foreground"
               href={`mailto:${siteConfig.email}`}
             >
               Email
